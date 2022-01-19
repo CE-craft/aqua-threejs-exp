@@ -1,0 +1,30 @@
+.btn {
+  @include centerFlex;
+  font-family: $sansserif-font;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  height: 13rem;
+  width: 13rem;
+  transform-origin: center;
+  border: 1px solid $color-white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    height: 14rem;
+    width: 14rem;
+    letter-spacing: 0.6rem;
+  }
+}

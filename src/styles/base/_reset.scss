@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ThreeJsCanvas {
+  position: fixed;
+  top: 0;
+  width: inherit;
+  height: inherit;
+}

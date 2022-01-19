@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-family: $sansserif-font;
+    font-weight: 600;
+  }
+}
+.menu {
+  display: flex;
+
+  &__line {
+    width: 3rem;
+    height: 0.3rem;
+    background-color: $color-white;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      background-color: $color-white;
+      width: 1.6rem;
+      height: 0.3rem;
+      top: 200%;
+      right: 0%;
+    }
+  }
+}
